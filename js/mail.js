@@ -13,13 +13,16 @@ for (let i = 0; i < listaMail.length; i++) {
 
     // console.log((listaMail[i]))
 
-    if (listaMail === userName) {
+    if (listaMail[i] === userName) {
 
-        alert("utente autorizzato")
+        trovato = true;
 
-    } else {
-
-        alert("untente non autorizzato")
     }
 
+}
+
+if (trovato == true) {
+    alert("email corretta")
+} else {
+    alert("email non corretta")
 }
