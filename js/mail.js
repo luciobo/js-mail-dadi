@@ -8,7 +8,6 @@ const listaMail = ["mumford@gmail.it", "massive@gmail.com", "rino@gmail.com", "n
 
 let trovato = false;
 
-
 for (let i = 0; i < listaMail.length; i++) {
 
     // console.log((listaMail[i]))
@@ -17,7 +16,7 @@ for (let i = 0; i < listaMail.length; i++) {
 
         trovato = true;
 
-    }
+    } 
 
 }
 
