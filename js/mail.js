@@ -26,3 +26,4 @@ if (trovato == true) {
 } else {
     alert("email non corretta")
 }
+
